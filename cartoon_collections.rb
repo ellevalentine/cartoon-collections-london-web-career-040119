@@ -23,11 +23,11 @@ end
 
 
 
-def find_the_cheese(list)
+def find_the_cheese(list, cheese_types)
  
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  if list.include?("cheddar", "gouda", "camembert")
+  if list.include?(cheese_types)
     return 
   
 end
