@@ -23,14 +23,6 @@ end
 
 
 
-def find_the_cheese(list, cheese_types)
- 
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  
-  if list.find?(cheese_types)
-    return 
-  els return "nil"
-end
 
 
 
