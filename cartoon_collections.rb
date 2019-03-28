@@ -11,7 +11,7 @@ end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteers_calls)
-  planeteers_calls.collect do {|x| x.capitalize + "!"}
+  planeteers_calls.collect {|x| x.capitalize + "!"}
     
   end
 end
