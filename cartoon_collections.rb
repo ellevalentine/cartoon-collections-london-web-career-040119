@@ -10,8 +10,8 @@ end
 
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-def summon_captain_planet(planeteers_calls)
-  planeteers_calls.collect {|x| x.capitalize + "!"}
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.collect {|x| x.capitalize + "!"}
     
   end
 end
