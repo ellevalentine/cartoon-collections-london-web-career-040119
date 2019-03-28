@@ -27,7 +27,7 @@ def find_the_cheese(list)
  
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  if list.find?(cheese_types)
+  if list.find?("cheddar", "gouda", "camembert")
     return 
   els return "nil"
 end
