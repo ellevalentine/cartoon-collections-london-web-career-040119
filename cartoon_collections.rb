@@ -5,12 +5,31 @@ def roll_call_dwarves(dwarves)
 end
 
 
+
+
+
+
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteers_calls)
-  
-  
-  
+  planeteers_calls.collect do |x|
+    puts "x.upcase !"
 end
+
+
+  - def change_nums(nums)
+-   nums.collect do |x| 
+-     x + 1
+-   end
+- end
+
+- change_nums(cool_nums)
+- #=> [2, 3, 4]
+  
+  
+  
+  
+  
+
 
 
 
