@@ -29,7 +29,7 @@ def find_the_cheese(list, cheese_types)
   
   if list.include?(cheese_types)
     return 
-  
+  els return "nil"
 end
 
 
