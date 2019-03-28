@@ -6,7 +6,7 @@ end
 
 
 
-def summon_captain_planet
+def summon_captain_planet(planeteers_calls)
   
   
 end
